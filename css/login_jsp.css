@@ -1,0 +1,21 @@
+td label   		{ font-size: 0.85em ; padding-right: 0.2em; }
+			label 		{ font-size: 0.77em; padding-right: 0.2em; }
+   			input { font-family: sans-serif; }
+			input[type=text],input[type=password],textarea { width:200px;}
+			.instructions 	{ color: #4d6d8b; font-size: 0.8em; margin: 0 10px 10px 0 }
+			@media only screen and (max-width : 800px)  {
+			input[type=text],input[type=password], textarea{
+        		width:225px;
+    			}}
+		@media only screen and (max-width : 800px)
+
+		{
+			.labelshow{display:none;}
+			.placeholder{display:block;}
+		}
+		
+@media only screen and (min-width : 801px)
+		{
+			.placeholder{display:none;}
+	       }	
+
